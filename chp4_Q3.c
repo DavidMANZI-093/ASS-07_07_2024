@@ -8,7 +8,7 @@ int main() {
     printf("\nEnter any month of a year: ");
     scanf("%d", &month);
 
-    switch (month) {
+    switch(month) {
 
         case 1:
             printf("\nJanuary has 31 days.\n");
