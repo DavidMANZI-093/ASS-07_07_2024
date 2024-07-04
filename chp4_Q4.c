@@ -1,4 +1,4 @@
-// 4. Largest of the 5
+// 4. Largest of the five
 
 #include<stdio.h>
 
