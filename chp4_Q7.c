@@ -1,5 +1,7 @@
 // 7. Resitor color code assigner
 
+// I was thinking about HASH MAPS ariko yatwica tuu!
+
 #include<stdio.h>
 int main() {
 
