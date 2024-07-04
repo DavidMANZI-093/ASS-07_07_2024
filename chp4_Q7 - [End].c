@@ -1,6 +1,6 @@
 // 7. Resitor color code assigner
 
-// I was thinking about HASH MAPS ariko yatwica tuu!
+// I was thinking about MAPS ariko yahita atwica tuu!
 
 #include<stdio.h>
 int main() {
