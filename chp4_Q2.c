@@ -17,7 +17,7 @@ int main() {
     } else if(num >= 30 && num <= 39) {
         printf("\nThe number provided is between 30 and 39!\n\n");
     } else {
-        printf("\nThe number provided doesn't coresspond to any range!\n\n");
+        printf("\nThe number provided doesn't correspond to any range!\n\n");
     }
 
     return 0;
