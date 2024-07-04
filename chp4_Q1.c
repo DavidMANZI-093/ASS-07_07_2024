@@ -1,3 +1,5 @@
+// 1. Smallest of the three
+
 #include<stdio.h>
 int main() {
     

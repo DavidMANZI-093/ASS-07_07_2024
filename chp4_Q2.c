@@ -1,3 +1,5 @@
+// 2. Find the range
+
 #include<stdio.h>
 int main() {
 
