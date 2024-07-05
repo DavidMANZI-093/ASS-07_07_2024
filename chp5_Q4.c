@@ -2,7 +2,7 @@
 // You might wanna take a guess before compiling it ;)
 // a guess to why I used `double` for `product`...
 
-#include <stdio.h>
+#include<stdio.h>
 int main() {
     double i, product = 1;
 
