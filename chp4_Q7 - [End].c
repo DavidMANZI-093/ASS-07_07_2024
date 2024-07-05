@@ -5,12 +5,12 @@
 #include<stdio.h>
 int main() {
 
-    char colorcode;
+    char colorCode;
 
     printf("\nEnter a color code (Single character code): ");
-    scanf("%c", &colorcode);
+    scanf("%c", &colorCode);
 
-    switch(colorcode) {
+    switch(colorCode) {
 
         case 'B':
         case 'b':
