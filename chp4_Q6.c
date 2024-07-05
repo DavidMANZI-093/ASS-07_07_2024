@@ -35,7 +35,7 @@ int main() {
         rt1 = rt2 = -cB / (2 * cA);
 
         printf("\n\nThe equation has equal roots.");
-        printf("\nRoot 1: %.1f\n", rt1);
+        printf("\nRoot 1: %.1f", rt1);
         printf("\nRoot 2: %.1f\n", rt2);
     } else {
         printf("\nThe equation has complex roots (Not computable).\n");
