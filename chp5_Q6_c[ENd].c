@@ -30,7 +30,7 @@ int main() {
 		}
 		
 		if(num == 1) {
-			ctrlFlag/ += 1; 
+			ctrlFlag += 1; 
 		}
 	}
 	
