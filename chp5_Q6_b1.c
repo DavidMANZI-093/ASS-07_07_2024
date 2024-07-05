@@ -2,25 +2,23 @@
 
 #include<stdio.h>
 int main() {
-
-    double x, y, qQ;
+    double num, divisor, quotient;
 
     printf("\nEnter a number: ");
-    scanf("%lf", &x);
+    scanf("%lf", &num);
 
     retry:
-
     printf("\nEnter its dividor: ");
-    scanf("%lf", &y);
+    scanf("%lf", &divisor);
 
-    if(y == 0) {
+    if(divisor == 0) {
         printf("\nThe divisor can't be zero!\n");
         goto retry;
     }
 
-    qQ = x / y;
+    quotient = num / divisor;
 
-    printf("\nThe quotient of dividing %.1f by %.1f is : %.1f\n", x, y, qQ);
+    printf("\nThe quotient of dividing %.1f by %.1f is : %.1f\n", num, divisor, quotient);
 
     return 0;
 }

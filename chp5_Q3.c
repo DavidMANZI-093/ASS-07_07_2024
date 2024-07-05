@@ -12,7 +12,7 @@ int main() {
         count++;
     }
 
-    double average = (double) sum / count;
+    double average = sum / count;
     printf("\nThe Average of all numbers between 500 and 1000 is: %.2f\n", average);
 
     return 0;

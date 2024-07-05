@@ -7,13 +7,13 @@ int main() {
 
     printf("\nAll Even numbers between 1 and 100: \n\n");
 
-    for(sbjNum = 0; sbjNum <= 10; sbjNum++) {
+    for(sbjNum = 1; sbjNum <= 10; sbjNum++) {
 
         if(sbjNum % 2 != 0) {
             continue;
         }
         
-        printf("[%d]\n", sbjNum);
+        printf("%d\n", sbjNum);
     }
 
     return 0;

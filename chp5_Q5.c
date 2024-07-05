@@ -15,7 +15,7 @@ int main() {
             }
             
             if(divisor == sbjNum && divCount == 2) {
-                printf("[%d]\n", sbjNum);
+                printf("%d\n", sbjNum);
             }
         }
 
