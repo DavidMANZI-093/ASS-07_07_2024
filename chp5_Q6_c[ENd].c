@@ -1,38 +1,45 @@
-// Q3.c. Collatz conjecture - Use of nested loops
-// !! - Learn what Collatz conjecture is first.
+// Q3.c. Bubble sorting - Use of nested loops.
 
 #include<stdio.h>
+
 int main() {
-	int num;
-	
-	printf("\nEnter any number: ");
-	scanf("%d", &num);
-	
-	printf("\n");
-	
-	printf("[%d] ", num);
-	
-	for(int count = 1; count <= num; count++) {
-		printf("*");
-	}
-	printf("\n");
-	
-	for(int ctrlFlag = 1; ctrlFlag <= 10; ) {
-		if(num % 2 == 0) {
-			num = num / 2;
-			printf("[%d] ", num);
-			for(int count = 1; count <= num; count++) {
-				printf("*");
-			}
-			printf("\n");
-		} else {
-			num = (num * 3) + 1;
-		}
-		
-		if(num == 1) {
-			ctrlFlag += 1; 
-		}
-	}
-	
-	return 0;
+    int arraY[6] = {54, 23, 41, 37, 11, 45};
+    int length = sizeof(arraY) / sizeof(arraY[0]);
+    int ctrlFlag = 0;
+
+	printf("\nArray before sorting:\n\n");
+
+    for(int i = 0; i < length; i++) {
+        printf("%d ", arraY[i]);
+    }
+
+    while(ctrlFlag != length - 1) {
+
+        ctrlFlag = 0;
+
+        for(int i = 0; i < length - 1; i++) {
+
+            if(arraY[i] > arraY[i + 1]) {
+
+                int buffer = arraY[i + 1];
+                arraY[i + 1] = arraY[i];
+                arraY[i] = buffer;
+                ctrlFlag = 0;
+
+            } else {
+                ctrlFlag += 1;
+            }
+
+        }
+    }
+
+	printf("\n\nArray after sorting:\n\n");
+
+    for(int i = 0; i < length; i++) {
+        printf("%d ", arraY[i]);
+    }
+
+    printf("\n");
+
+    return 0;
 }
