@@ -20,7 +20,7 @@ int main() {
 
     qQ = x / y;
 
-    printf("\nThe quotioent of dividing %.1f by %.1f is : %.1f\n", x, y, qQ);
+    printf("\nThe quotient of dividing %.1f by %.1f is : %.1f\n", x, y, qQ);
 
     return 0;
 }
