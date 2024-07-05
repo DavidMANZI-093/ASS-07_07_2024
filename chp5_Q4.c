@@ -6,7 +6,7 @@
 int main() {
     double i, product = 1;
 
-    for (i = 100; i <= 200; i++) {
+    for(i = 100; i <= 200; i++) {
         product *= i;
         // printf("%.2f\n", product);  --- Uncomment this line for more satisfaction..
     }
