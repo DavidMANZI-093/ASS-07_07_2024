@@ -1,4 +1,4 @@
-// 5. Prime numbers 1 - 100
+// 5. All Prime numbers 1 - 100
 
 #include<stdio.h>
 int main() {
