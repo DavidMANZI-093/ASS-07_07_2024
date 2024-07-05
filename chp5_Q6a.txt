@@ -1,0 +1,39 @@
+// Q3.a. What do you understand by JUMP statements?
+
+    1. Definition
+
+    Jump statements are special, reserved keywords which are used to modify
+    the behavior of conditional and iterative statements. They achieve this
+    by allowing you to abrubtly, exit a loop, jump to the next iteration in
+    a loop, or literally, transfer the program control to another particular
+    part of a program. 
+
+    2. Types of JUMP statements.
+
+      `GOTO` statement
+
+    The goto statement allows you to transfer control to a labeled section
+    within a program. It's rarely used because it can make code harder to
+    read and maintain, or cause errors that are hard to detect... but it's
+    useful in certain situations like breaking out of deeply nested loops.
+
+      `BREAK` statement
+
+    The break statement is used to exit from a loop or switch statement. When
+    a break statement is encountered inside a loop, the loop terminates
+    completely, and execution proceeds the next statements following the loop.
+
+      `CONTINUE` statement
+
+    The continue statement skips the remaining code inside a loop for an 
+    ongoing iteration and proceeds with the next iteration of the loop. It
+    can be used within for, while, and do-while loops.
+
+      `RETURN` statement
+
+    The return statement is used to terminate the execution of a function and
+    return control back to the calling function. It also returns a value to the
+    calling function.
+    
+
+ // End of Question!
