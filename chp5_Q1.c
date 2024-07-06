@@ -5,10 +5,10 @@ int main() {
 
     int sbjNum;
 
-    printf("\nAll Even numbers between 1 and 100: \n\n");
+    printf("\nAll Even numbers between 1 and 10: \n\n");
 
-    for(sbjNum = 0; sbjNum <= 10; sbjNum += 2) {
-        printf("[%d]\n", sbjNum);
+    for(sbjNum = 2; sbjNum <= 10; sbjNum += 2) {
+        printf("%d\n", sbjNum);
     }
 
     return 0;

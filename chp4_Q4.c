@@ -1,10 +1,10 @@
-// 4. Largest of the five
+// 4. Largest and smallest of the five
 
 #include<stdio.h>
 
 int main() {
 
-    int num1, num2, num3, num4, num5, one_of_two, largest;
+    int num1, num2, num3, num4, num5, one_of_two, largest, smallest;
 
     printf("\nEnter the first number: ");
     scanf("%d", &num1);
@@ -25,8 +25,13 @@ int main() {
     one_of_two = (one_of_two > num3)? one_of_two : num3;
     one_of_two = (one_of_two > num4)? one_of_two : num4;
     largest = (one_of_two > num5)? one_of_two : num5;
+    
+    one_of_two = (num1 < num2)? num1 : num2;
+    one_of_two = (one_of_two < num3)? one_of_two : num3;
+    one_of_two = (one_of_two < num4)? one_of_two : num4;
+    smallest = (one_of_two < num5)? one_of_two : num5;
 
-    printf("\nThe largest number is: %d\n", largest);
+    printf("\nThe largest number is: %d and Smallest is: %d \n", largest, smallest);
 
     return 0;
 }

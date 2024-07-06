@@ -10,7 +10,6 @@ int main() {
 	
 	sbj = num;
 	i = 0; 
-	
 	while(1) {
 		sbj = sbj / 10;
 		i++;
